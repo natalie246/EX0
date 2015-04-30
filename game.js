@@ -12,5 +12,6 @@ game1.winPoint(200);
 http.createServer(function(req,res){
 	res.setHeader('content-type','text/html');
 	res.writeHead(200);
+	res.end("success");
 }).listen(3000);
 console.log("listening on port 3000");
